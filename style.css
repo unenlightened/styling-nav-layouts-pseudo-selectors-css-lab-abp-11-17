@@ -36,9 +36,13 @@ nav a:hover {
   color: #0056b3;
 }
 
-#header a{
+#header a {
   text-decoration: none;
   color: #868e96;
+}
+
+#header a:hover {
+  text-decoration: underline;
 }
 
 main{
