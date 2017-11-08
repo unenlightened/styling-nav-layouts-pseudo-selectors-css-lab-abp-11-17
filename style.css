@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -31,9 +31,18 @@ nav a {
   font-size: 18px;
 }
 
-#header a{
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+#header a {                         /*wouldn't use header as an ID since it's an html tag already */
   text-decoration: none;
   color: #868e96;
+}
+
+#header a:hover {
+  text-decoration: underline;
 }
 
 main{
@@ -55,6 +64,34 @@ div.jumbotron {
   font-size: 20px;
   padding: 0 40px 0 40px;
   line-height: 40px;
+}
+
+div.questions {
+  padding: 0 20px 0 20px;
+}
+
+div.questions h4 {          /* .questions h4 fails */
+  font-size: 30px;
+  margin-bottom: 10px;      /* margin: 0 0 10px 0; fails */
+}
+
+div.questions p {           /*.questions p fails */
+  margin-top: 30px;         /* margin: 30px 0 0 0; */
+}
+
+div.questions a.btn {
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+  padding: 18px;
+  font-size: 20px;
+}
+
+div.questions a.btn:hover{
+    background-color: #0069d9;
+    border-color: #0069d9;
 }
 
 footer{
