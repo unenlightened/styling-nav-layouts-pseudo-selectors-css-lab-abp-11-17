@@ -36,7 +36,7 @@ nav a:hover {
   color: #0056b3;
 }
 
-#header a {
+#header a {                         /*wouldn't use header as an ID since it's an html tag already */
   text-decoration: none;
   color: #868e96;
 }
